@@ -1,27 +1,25 @@
 EventBus
 ======
 
-[![GoDoc](https://godoc.org/github.com/asaskevich/EventBus?status.svg)](https://godoc.org/github.com/asaskevich/EventBus) [![Coverage Status](https://img.shields.io/coveralls/asaskevich/EventBus.svg)](https://coveralls.io/r/asaskevich/EventBus?branch=master) [![Build Status](https://travis-ci.org/asaskevich/EventBus.svg)](https://travis-ci.org/asaskevich/EventBus)
-
 Package EventBus is the little and lightweight eventbus with async compatibility for GoLang.
 
 #### Installation
 Make sure that Go is installed on your computer.
 Type the following command in your terminal:
 
-	go get github.com/asaskevich/EventBus
+	go get github.com/mysteriumnetwork/EventBus
 
 After it the package is ready to use.
 
 #### Import package in your project
 Add following line in your `*.go` file:
 ```go
-import "github.com/asaskevich/EventBus"
+import "github.com/mysteriumnetwork/EventBus"
 ```
 If you unhappy to use long `EventBus`, you can do something like this:
 ```go
 import (
-	evbus "github.com/asaskevich/EventBus"
+	evbus "github.com/mysteriumnetwork/EventBus"
 )
 ```
 
@@ -148,13 +146,13 @@ func main() {
 ```
 
 #### Notes
-Documentation is available here: [godoc.org](https://godoc.org/github.com/asaskevich/EventBus).
-Full information about code coverage is also available here: [EventBus on gocover.io](http://gocover.io/github.com/asaskevich/EventBus).
+Documentation is available here: [godoc.org](https://godoc.org/github.com/mysteriumnetwork/EventBus).
+Full information about code coverage is also available here: [EventBus on gocover.io](http://gocover.io/github.com/mysteriumnetwork/EventBus).
 
 #### Support
 If you do have a contribution for the package feel free to put up a Pull Request or open Issue.
 
-#### Special thanks to [contributors](https://github.com/asaskevich/EventBus/graphs/contributors)
+#### Special thanks to [contributors](https://github.com/mysteriumnetwork/EventBus/graphs/contributors)
 * [Brian Downs](https://github.com/briandowns)
 * [Dominik Schulz](https://github.com/gittex)
 * [bennAH](https://github.com/bennAH)
